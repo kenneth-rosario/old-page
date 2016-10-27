@@ -1,4 +1,4 @@
-confirm("Are you ready for awesomness?");
+
 $(document).on("click","#r2deep-selector",function(){
     $('html, body').animate({
         scrollTop: $("#R2DEEP").offset().top
