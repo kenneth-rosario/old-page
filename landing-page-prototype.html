@@ -208,10 +208,10 @@
 <script>
     $(document).on('click','.slide-trigger', function(){
         if($(document).width()>770)
-        {
-        $('#lolo').animate({'margin-left':'0px'},300);
+        { 
         $('#lolo').removeClass();
-        $('#lolo').addClass('col-sm-12');
+        $('#lolo').animate({'margin-left':'0px'},300);
+        $('#lolo').addClass(' col-sm-12 ');
         }
         else
         {
@@ -221,7 +221,7 @@
     $(document).on('click','#slide-right',function(){
 
         $('#lolo').removeClass();
-        $('#lolo').addClass('col-sm-4');
+        $('#lolo').addClass(' col-sm-4 hide ');
         $('#lolo').animate({'margin-left':'-100%'},300);
     })
 </script>
