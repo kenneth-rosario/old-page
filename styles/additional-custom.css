@@ -1,0 +1,136 @@
+.glyphicon.glyphicon-triangle-right {
+         font-size:50px;
+    }
+    html,body
+        {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+    #lolo{
+        height:550px;
+        width:100%;
+        margin-left:-100%;
+        background-image:url('../Images/field.jpg');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+        #footer{
+            background-color:#2d9b53;
+            font-family:'Ubuntu', serif;
+        }
+        #text{
+              margin-top:80px;
+              color:black;
+        }
+        #info{
+            margin-top:27px;
+            background-image:url('https://unsplash.imgix.net/44/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=f0a1db79752dbb04ec6d2aab7d17c7b0');
+            background-repeat:no-repeat;
+            background-size:cover;
+            font-family: 'Rubik' , serif;
+            background-attachment: fixed;
+            opacity:0.8;
+            overflow:hidden;
+        }
+        h1{
+            font-size:60px;
+            opacity:2;
+        }
+        #welcome{
+            margin-top:9px;
+            background-color:#2d9b53;
+            height:120px;
+
+        }
+        #search{
+            margin-top:20px;
+            width:800px;
+            margin-left:120px;
+            font-family:'Rubik', serif;
+        }
+
+        #navbar{
+                margin-top:90px;
+                margin-left:300px;
+                background-color:white;
+                font-family:'Ubuntu', serif;
+        }
+        #navbar a{
+        font-size:20px;
+        }#advertise{
+            color:black;
+        }
+        body{
+
+        }
+        #outer-nav{
+            height:150px;
+        }
+
+        @media only screen and (max-width: 766px){
+                #lolo{
+                    display:none;
+                }
+                #text{
+                    margin-top:120px;
+                    color:black;
+
+                }
+
+                h1{
+
+                    font-size:40px;
+                    margin-top:-90px;
+
+                }
+                #navbar{
+                    margin-top:60px;
+                    margin-left:-20px;
+
+                }
+                .navbar-toggle{
+                margin-top:10px;
+
+                }
+                #search{
+
+                    width:100%;
+                    margin-left:auto;
+                    margin-right:auto;
+                }
+                #welcome{
+                    text-align:left;
+                    margin-top:60px;
+                }
+        }
+        @media only screen and (max-width:320px){
+                #outer-nav{
+                    height:200px;
+                }
+                #navbar{
+                    margin-top:110px;
+                    margin-left:-20px;
+                    width:max-width;
+                }
+
+        }@media (min-width:768px) and (max-width: 990px) {
+                 #navbar a{
+                    font-size:15px;
+                    }
+                #advertise{
+                    display:none;
+                }
+                #search{
+                    width:100%;
+                    margin-left:auto;
+                    margin-right:auto;
+                }
+
+        }@media (min-width:992px) and (max-width: 1200px){
+                 #navbar a{
+                    font-size:15px;
+                 }
+        }
