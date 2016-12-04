@@ -1,0 +1,231 @@
+<!--additional-custom.css custom-navbar.css -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mana Advertisement</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Ubuntu" />
+     <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Rubik" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="styles/additional-custom.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/custom-navbar.css" rel="stylesheet" type="text/css"/>
+<script>alert('Prototype landing page made with jQuery and Bootstrap Framework')</script>
+</head>
+<body>
+<div class="container-fluid" style="color:white;">
+  <div class="row">
+  <div class="navbar navbar-default navbar-fixed " id="outer-nav" >
+    <div class="container" style="color:white">
+      <div class="navbar-header" style="color:white">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand " style="color:#42f4d7;height:80px;margin-top:8px;margin-left:5px;" href="#"><div><img style="height:50;width:150;" class="img-responsive " src="Images/logo.JPG" /> </div></a>
+      </div>
+      <div class="collapse navbar-collapse"   id="navbar" >
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" style="color:#33c480"><strong>Home</strong></a>
+          </li>
+          <li><a href="#About" style="color:#33c480"><strong>Contact us</strong></a>
+          </li>
+          <li class="dropdown"  id="advertise">
+            <a  href="#" class="dropdown-toggle" style="color:#33c480" data-toggle="dropdown"><strong>Advertise your products</strong><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+             <li class="dropdown-header">Different types</li>
+              <li>
+              <li><a  >Sell</a>
+              </li>
+              <li><a  >Rent</a>
+              </li>
+              <li><a >Search for cars</a>
+              </li>
+              <li>
+                  <a >Search for Houses</a>
+              </li>
+              <li class="divider"></li>
+
+            </ul>
+          </li>
+          <li class="dropdown" id = "login-account" >
+
+            <a href="#" class="dropdown-toggle"  data-toggle="dropdown" style="color:#33c480" ><strong>Login</strong><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+             <li class="dropdown-header">Enter your information</li>
+                <!--LOGIN FORM-->
+                 <li>
+                <a>
+
+                    <form class="navbar-form-alt">
+                     <div class="form-group">
+                        <div class="input-group" >
+                            <input type="text" class="form-control inputAB" id="username" placeholder="username" style="margin-top:10px">
+                            <input style="margin-top:10px" type="password" class="form-control inputAB" id="password" placeholder="password">
+                        </div>
+                     </div>
+                    </form>
+
+                </a>
+                 </li>
+                <!--LOGIN FORM-->
+              <li><a href="#" id="login" >Login</a>
+              </li>
+              <li class="divider"></li>
+                <li><a class="slide-trigger" >Register</a></li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+
+    <div  id="welcome" >
+
+          <div class="col-xs-12" id="search" style="opacity:1;">
+            <h4><strong>Search for Advertisements:</strong></h4>
+            <div class="input-group" >
+                <input id="input" type="search" class="form-control" placeholder="Search for Advertisements" name="srch-term" >
+                <div class="input-group-btn" style="margin-top:5px;">
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+        </div>
+
+
+
+
+
+    <div id="info" class="row" style=" height:550px;">
+
+                <div id="lolo"  class="col-sm-4">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-sm-10"><h1>Register!</h1></div>
+                            <div style="margin-top:45px;" class="col-sm-2"><span style="font-size:30px;" id="slide-right" class="glyphicon glyphicon-triangle-left"></span></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>Personal Information</h3>
+                            <div class = "form-group">
+                                <label for="firstname" >Firstname:</label>
+                                <input id="firstname" class="form-control" type="text" />
+                                <label for="lastname">Lastname:</label>
+                                <input type="text" id="lastname" class="form-control" />
+                                <label for="username1">Username:</label>
+                                <input id="username1" type="text" class="form-control"/>
+                                <label for="password1">Password:</label>
+                                <input id="password1" type="password" class="form-control"/>
+                                <label for="confirm-password" >Confirm Password:</label>
+                                <input id="confirm-password" type="password" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>Contact Information:</h3>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input id="email" class="form-control" type="email"/>
+                                <label for="confirm-email" >Confirm Email:</label>
+                                <input id="confirm-email" class="form-control" />
+                                <label for="Tel">Telephone:</label>
+                                <input id="Tel" type="tel" class="form-control" />
+                                <label for="birth-date">Birth Date:</label>
+                                <input id="birth-date" type="date" class="form-control"/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button id="register" class="btn btn-default">Register</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+        <!--I removed col-sm-offset-5 from text november 20 2016 -->
+            <div id="text" style="background-color:none;" class="col-xs-10 col-xs-offset-2 col-sm-6" >
+
+                <h1>Let the World know what you are Selling Register now!!</h1>
+                <span  class="glyphicon glyphicon-triangle-right slide-trigger"></span>
+
+            </div>
+
+
+
+    </div>
+    <div class="row" id="footer">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h4><strong>Advertise your products for free</strong></h4>
+                <h4><strong>Follow us on:</strong></h4>
+            </div>
+        </div>
+        <div class="row" style="margin-right:40px; margin-top:5px;">
+
+            <div class="col-xs-2 col-xs-offset-3">
+                    <img class="img-responsive" src="Images/rsz_official-facebook-logo-slide.png" />
+            </div>
+            <div class="col-xs-2">
+                    <img class="img-responsive" src="Images/rsz_twitter-bird-white-on-blue.png'" />
+            </div>
+            <div class="col-xs-2">
+                    <img class="img-responsive" src="Images/rsz_1img_logo_bluebg_2x.png" />
+            </div>
+            <div class="col-xs-2">
+                    <img class="img-responsive" src="Images/rsz_instagram-logo-icon.png" />
+            </div>
+
+        </div>
+        <p style="font-size:10px; margin-top:4px;" class="text-center"> powered by Kenn-Tech inc.</p>
+    </div>
+
+  </div>
+
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+    $(document).on('click','.slide-trigger', function(){
+        if($(document).width()>770)
+        {
+        $('#lolo').animate({'margin-left':'0px'},300);
+        $('#lolo').removeClass();
+        $('#lolo').addClass('col-sm-12');
+        }
+        else
+        {
+            window.location.href = '/'
+        }
+    })
+    $(document).on('click','#slide-right',function(){
+
+        $('#lolo').removeClass();
+        $('#lolo').addClass('col-sm-4');
+        $('#lolo').animate({'margin-left':'-100%'},300);
+    })
+</script>
+</body>
+
+
+</html>
